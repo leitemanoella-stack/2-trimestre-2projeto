@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Entre Flores e Abraços — um portal de apoio ao estudante sobre bullying e saúde mental. Um espaço seguro para informar, acolher e incentivar a busca por ajuda." />
+  <title>Entre Flores e Abraços · Portal de Apoio ao Estudante</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+  <script type="module" crossorigin src="/index-8Q_UaMth.js"></script>
+  <link rel="stylesheet" crossorigin href="/index-DGOG-tLB.css">
+</head>
+<body>
+
+  <!-- Cursor sparkle container -->
+  <div class="cursor-sparkles" id="cursorSparkles" aria-hidden="true"></div>
+
+  <!-- Barra de progresso de leitura -->
+  <div class="reading-progress" id="readingProgress" aria-hidden="true"></div>
+
+  <!-- ===== Cabeçalho fixo ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand" aria-label="Entre Flores e Abraços — início">
+        <img src="/image.png" alt="" class="brand-bear-img" aria-hidden="true" />
+        <span class="brand-text">
+          <span class="brand-title">Entre Flores e Abraços</span>
+          <span class="brand-sub">Portal de Apoio ao Estudante</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#bullying">Bullying</a>
+        <a href="#saude-mental">Saúde Mental</a>
+        <a href="#escuta">Portal de Escuta</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#ajuda">Buscar Ajuda</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#referencias">Referências</a>
+      </nav>
+
+      <div class="nav-tools" role="group" aria-label="Ferramentas de acessibilidade">
+        <button class="tool-btn" id="fontToggle" type="button" aria-label="Aumentar fonte" aria-pressed="false">A+</button>
+        <button class="tool-btn" id="contrastToggle" type="button" aria-label="Alto contraste" aria-pressed="false">◐</button>
+        <button class="tool-btn" id="themeToggle" type="button" aria-label="Modo escuro" aria-pressed="false">☾</button>
+        <button class="tool-btn nav-toggle" id="navToggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="topo">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="inicio">
+      <!-- Pétalas flutuantes decorativas -->
+      <div class="hero-petals" aria-hidden="true">
+        <span class="petal p1"></span><span class="petal p2"></span>
+        <span class="petal p3"></span><span class="petal p4"></span>
+        <span class="petal p5"></span><span class="petal p6"></span>
+        <span class="petal p7"></span>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="hero-eyebrow"><span aria-hidden="true">🌸</span> Um espaço seguro e acolhedor</p>
+          <h1 class="hero-title">
+            Entre Flores<br>
+            <em>e Abraços</em>
+          </h1>
+          <p class="hero-subtitle">Um espaço criado para acolher, informar e lembrar que ninguém precisa enfrentar o bullying sozinho.</p>
+          <div class="hero-actions">
+            <a href="#carta" class="btn btn-primary ripple">
+              <span aria-hidden="true">🌸</span> Entrar no Jardim
+            </a>
+            <a href="#bullying" class="btn btn-outline ripple">Saiba mais</a>
+          </div>
+        </div>
+
+        <figure class="hero-figure reveal">
+          <!-- Imagem 1: as flores -->
+          <div class="hero-img-frame">
+            <img
+              src="/image copy copy.png"
+              alt="Buquê de lírios rosa delicados com fundo suave"
+              class="hero-img"
+              loading="eager"
+            />
+            <div class="hero-img-glow" aria-hidden="true"></div>
+          </div>
+
+          <!-- Ursinho flutuante sobre a imagem -->
+          <div class="hero-bear-card">
+            <img src="/image.png" alt="Ursinho de pelúcia com laço rosa" class="hero-bear-img" />
+            <p class="hero-bear-msg">Fico feliz que você esteja aqui.</p>
+          </div>
+
+          <!-- Estatística decorativa -->
+          <div class="hero-stat">
+            <span class="hero-stat-num">+</span>
+            <span class="hero-stat-txt">Você não está sozinho</span>
+          </div>
+        </figure>
+      </div>
+
+      <!-- Ondas de transição -->
+      <div class="wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="var(--bg)" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===== Cartões rápidos ===== -->
+    <section class="quick-cards-section" aria-label="Atalhos do portal">
+      <div class="container">
+        <div class="quick-cards">
+          <a href="#bullying" class="quick-card reveal tilt-card" data-delay="0">
+            <span class="qc-icon" aria-hidden="true">🌿</span>
+            <h3>Entenda o Bullying</h3>
+            <p>O que é, como identificar e como ajudar.</p>
+            <span class="qc-arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="#saude-mental" class="quick-card reveal tilt-card" data-delay="80">
+            <span class="qc-icon" aria-hidden="true">💗</span>
+            <h3>Saúde Mental</h3>
+            <p>Como o bullying afeta emoções e autoestima.</p>
+            <span class="qc-arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="#escuta" class="quick-card reveal tilt-card" data-delay="160">
+            <span class="qc-icon" aria-hidden="true">💌</span>
+            <h3>Portal de Escuta</h3>
+            <p>Um espaço para desabafar com segurança.</p>
+            <span class="qc-arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="#quiz" class="quick-card reveal tilt-card" data-delay="240">
+            <span class="qc-icon" aria-hidden="true">✨</span>
+            <h3>Quiz</h3>
+            <p>Teste o que você sabe sobre respeito.</p>
+            <span class="qc-arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="#ajuda" class="quick-card reveal tilt-card" data-delay="320">
+            <span class="qc-icon" aria-hidden="true">🤝</span>
+            <h3>Buscar Ajuda</h3>
+            <p>Pessoas prontas para ouvir você.</p>
+            <span class="qc-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Carta de boas-vindas ===== -->
+    <section class="letter-section" id="carta">
+      <div class="container">
+        <article class="letter reveal">
+          <div class="letter-deco" aria-hidden="true">💌</div>
+          <div class="letter-body">
+            <h2 class="letter-heading">Seja bem-vindo.</h2>
+            <p>Talvez hoje você tenha vindo apenas aprender.</p>
+            <p>Talvez esteja procurando respostas.</p>
+            <p>Talvez esteja tentando entender seus sentimentos.</p>
+            <p>Independentemente do motivo, esperamos que este espaço faça você se sentir acolhido.</p>
+            <p class="letter-sign">— Você importa.</p>
+          </div>
+          <figure class="letter-bear-figure" aria-hidden="true">
+            <img src="/image.png" alt="" class="letter-bear-img" />
+            <figcaption class="letter-bear-note">Você merece respeito.</figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+
+    <!-- Divisor ornamental -->
+    <div class="section-divider" aria-hidden="true">
+      <span></span><span>🌸</span><span></span>
+    </div>
+
+    <!-- ===== Sobre Bullying ===== -->
+    <section class="content-section" id="bullying">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-eyebrow">Entenda</span>
+          <h2 class="section-title">Sobre Bullying</h2>
+          <p class="section-desc">Atitudes de desrespeito repetidas podem machucar muito além do que se vê. Conhecer é o primeiro passo para cuidar.</p>
+        </header>
+
+        <div class="cards-grid">
+          <article class="info-card reveal tilt-card" data-delay="0">
+            <div class="card-top-bar"></div>
+            <span class="card-icon" aria-hidden="true">🔍</span>
+            <h3>O que é bullying?</h3>
+            <p>É qualquer comportamento agressivo, intencional e repetido que visa machucar, humilhar ou excluir alguém que tem dificuldade de se defender.</p>
+          </article>
+          <article class="info-card reveal tilt-card" data-delay="80">
+            <div class="card-top-bar"></div>
+            <span class="card-icon" aria-hidden="true">🧩</span>
+            <h3>Tipos de bullying</h3>
+            <ul class="card-list">
+              <li><strong>Físico:</strong> empurrões, tapas, bater.</li>
+              <li><strong>Verbal:</strong> apelidos, ofensas, zoar.</li>
+              <li><strong>Psicológico:</strong> excluir, ignorar, ameaçar.</li>
+              <li><strong>Cyberbullying:</strong> mensagens e posts ofensivos.</li>
+            </ul>
+          </article>
+          <article class="info-card reveal tilt-card" data-delay="160">
+            <div class="card-top-bar"></div>
+            <span class="card-icon" aria-hidden="true">👁️</span>
+            <h3>Como identificar</h3>
+            <p>Mudanças de humor, medo de ir à escola, queda no rendimento, isolamento e sono perturbado podem ser sinais.</p>
+          </article>
+          <article class="info-card reveal tilt-card" data-delay="0">
+            <div class="card-top-bar"></div>
+            <span class="card-icon" aria-hidden="true">💔</span>
+            <h3>Consequências emocionais</h3>
+            <p>Ansiedade, tristeza, queda na autoestima e vontade de se afastar de tudo. Esses sentimentos são respostas reais a uma situação injusta.</p>
+          </article>
+          <article class="info-card reveal tilt-card" data-delay="80">
+            <div class="card-top-bar"></div>
+            <span class="card-icon" aria-hidden="true">🫂</span>
+            <h3>Como ajudar um colega</h3>
+            <ul class="card-list">
+              <li>Escute sem julgar.</li>
+              <li>Não incentive atitudes que machucam.</li>
+              <li>Avise um adulto de confiança.</li>
+              <li>Mostre que a pessoa não está sozinha.</li>
+            </ul>
+          </article>
+          <article class="info-card reveal tilt-card" data-delay="160">
+            <div class="card-top-bar"></div>
+            <span class="card-icon" aria-hidden="true">🌱</span>
+            <h3>Como pedir ajuda</h3>
+            <p>Escolha alguém de confiança — professor, familiar ou profissional da escola. Falar não é fraqueza: é cuidado consigo mesmo.</p>
+          </article>
+        </div>
+
+        <aside class="bear-banner reveal">
+          <img src="/image.png" alt="" class="bear-banner-img" aria-hidden="true" />
+          <p>Respire fundo. Você não precisa enfrentar tudo sozinho.</p>
+        </aside>
+      </div>
+    </section>
+
+    <div class="wave-between" aria-hidden="true">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,30 C480,60 960,0 1440,30 L1440,60 L0,60 Z" fill="var(--bg-alt)" />
+      </svg>
+    </div>
+
+    <!-- ===== Saúde Mental ===== -->
+    <section class="content-section section-alt" id="saude-mental">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-eyebrow">Cuidado</span>
+          <h2 class="section-title">Saúde Mental</h2>
+          <p class="section-desc">O bullying não dói só no momento — ele pode deixar marcas nos sentimentos. Entender isso ajuda a cuidar de si.</p>
+        </header>
+
+        <div class="mental-grid">
+          <article class="mental-card reveal tilt-card" data-delay="0">
+            <span class="mental-emoji" aria-hidden="true">🥀</span>
+            <h3>Autoestima</h3>
+            <p>Críticas repetidas podem fazer alguém duvidar do próprio valor. Mas o que dizem sobre você não define quem você é.</p>
+          </article>
+          <article class="mental-card reveal tilt-card" data-delay="80">
+            <span class="mental-emoji" aria-hidden="true">😟</span>
+            <h3>Ansiedade</h3>
+            <p>Medo constante de ser julgado pode gerar nervosismo e dificuldade de concentração.</p>
+          </article>
+          <article class="mental-card reveal tilt-card" data-delay="160">
+            <span class="mental-emoji" aria-hidden="true">🌧️</span>
+            <h3>Tristeza</h3>
+            <p>Sentimentos não são fraquezas — são sinais de que algo precisa de atenção e cuidado.</p>
+          </article>
+          <article class="mental-card reveal tilt-card" data-delay="0">
+            <span class="mental-emoji" aria-hidden="true">😨</span>
+            <h3>Medo</h3>
+            <p>Ninguém deveria viver com medo do próprio ambiente escolar. Esse sentimento é válido e merece atenção.</p>
+          </article>
+          <article class="mental-card reveal tilt-card" data-delay="80">
+            <span class="mental-emoji" aria-hidden="true">🚪</span>
+            <h3>Isolamento</h3>
+            <p>Se afastar pode parecer uma proteção, mas também aumenta a solidão. Existem pessoas dispostas a estar com você.</p>
+          </article>
+          <article class="mental-card reveal tilt-card" data-delay="160">
+            <span class="mental-emoji" aria-hidden="true">🪞</span>
+            <h3>Confiança</h3>
+            <p>A confiança pode se abalar — mas ela se reconstrói, um passo de cada vez, com apoio e tempo.</p>
+          </article>
+        </div>
+
+        <div class="help-callout reveal">
+          <div class="callout-text">
+            <h3>Pedir ajuda é um ato de coragem.</h3>
+            <p>Procurar um adulto de confiança ou um profissional de saúde não é exagero. É cuidar de si com carinho.</p>
+          </div>
+          <a href="#ajuda" class="btn btn-primary ripple">Encontrar apoio</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="wave-between wave-reverse" aria-hidden="true">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,30 C480,0 960,60 1440,30 L1440,60 L0,60 Z" fill="var(--bg)" />
+      </svg>
+    </div>
+
+    <!-- ===== Portal de Escuta ===== -->
+    <section class="content-section" id="escuta">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-eyebrow">Acolhimento</span>
+          <h2 class="section-title">Portal de Escuta</h2>
+          <p class="section-desc">Um espaço para colocar em palavras o que sente. Nada é guardado — este é um cantinho só seu.</p>
+        </header>
+
+        <div class="escuta-layout reveal">
+          <!-- Ursinho companheiro — segunda aparição -->
+          <aside class="escuta-companion" aria-hidden="true">
+            <img src="/image.png" alt="" class="escuta-bear-img" />
+            <div class="escuta-bear-bubble">
+              <p>"Aqui você pode ser você."</p>
+            </div>
+          </aside>
+
+          <div class="escuta-wrap">
+            <form class="escuta-form" id="escutaForm" novalidate>
+              <label for="desabafo" class="form-label">Escreva o que está sentindo</label>
+              <textarea id="desabafo" name="desabafo" rows="6"
+                placeholder="Pode escrever… aqui ninguém julga. 🌸"
+                aria-describedby="escutaHint"></textarea>
+              <p id="escutaHint" class="form-hint">Seu texto não é enviado nem armazenado. Fica só no seu navegador.</p>
+              <button type="submit" class="btn btn-primary ripple" style="width:100%;justify-content:center">Enviar desabafo</button>
+            </form>
+
+            <div class="escuta-result" id="escutaResult" hidden>
+              <div class="petals-burst" aria-hidden="true">
+                <span class="burst-petal"></span><span class="burst-petal"></span>
+                <span class="burst-petal"></span><span class="burst-petal"></span>
+                <span class="burst-petal"></span><span class="burst-petal"></span>
+              </div>
+              <img src="/image.png" alt="" class="bear-celebrate-img" aria-hidden="true" />
+              <p class="escuta-message" id="escutaMessage"></p>
+              <button type="button" class="btn btn-ghost ripple" id="escutaReset">Escrever outro desabafo</button>
+            </div>
+          </div>
+        </div>
+
+        <aside class="phrase-card" id="phraseCard" hidden>
+          <span aria-hidden="true">🌸</span>
+          <p id="phraseText"></p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== Quiz ===== -->
+    <section class="content-section section-alt" id="quiz">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-eyebrow">Descubra</span>
+          <h2 class="section-title">Quiz do Respeito</h2>
+          <p class="section-desc">Cinco perguntas rápidas. A cada resposta, uma explicação carinhosa. No final, uma mensagem para você.</p>
+        </header>
+
+        <div class="quiz-wrap reveal" id="quizWrap">
+          <div class="quiz-progress-wrap" aria-hidden="true">
+            <div class="quiz-progress" id="quizProgress"><span></span></div>
+            <span class="quiz-counter" id="quizCounter">1 / 5</span>
+          </div>
+          <div class="quiz-stage" id="quizStage"></div>
+          <div class="quiz-result" id="quizResult" hidden>
+            <img src="/image.png" alt="" class="quiz-bear-img" aria-hidden="true" />
+            <h3 id="quizScore"></h3>
+            <p id="quizMessage"></p>
+            <button type="button" class="btn btn-primary ripple" id="quizRestart">Refazer quiz</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Onde buscar ajuda ===== -->
+    <section class="content-section" id="ajuda">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-eyebrow">Apoio</span>
+          <h2 class="section-title">Onde Buscar Ajuda</h2>
+          <p class="section-desc">Estas pessoas estão perto e podem ouvir você. Nenhuma situação é pequena demais para pedir apoio.</p>
+        </header>
+
+        <div class="help-grid">
+          <article class="help-card reveal tilt-card" data-delay="0">
+            <span class="help-emoji" aria-hidden="true">👩‍🏫</span>
+            <h3>Professor</h3>
+            <p>Quando algo acontece na sala ou no recreio. Eles conhecem o ambiente e podem intervir com cuidado.</p>
+          </article>
+          <article class="help-card reveal tilt-card" data-delay="70">
+            <span class="help-emoji" aria-hidden="true">🧑‍💼</span>
+            <h3>Pedagogo</h3>
+            <p>Para conversas mais profundas sobre o convívio e mediar conflitos entre colegas.</p>
+          </article>
+          <article class="help-card reveal tilt-card" data-delay="140">
+            <span class="help-emoji" aria-hidden="true">🏫</span>
+            <h3>Direção</h3>
+            <p>Quando a situação é grave, repetida ou envolve risco. A escola tem o dever de proteger você.</p>
+          </article>
+          <article class="help-card reveal tilt-card" data-delay="0">
+            <span class="help-emoji" aria-hidden="true">👨‍👩‍👧</span>
+            <h3>Família</h3>
+            <p>Pais e responsáveis podem te apoiar, te ouvir e buscar a escola junto com você.</p>
+          </article>
+          <article class="help-card reveal tilt-card" data-delay="70">
+            <span class="help-emoji" aria-hidden="true">🧠</span>
+            <h3>Psicólogo</h3>
+            <p>Quando os sentimentos pesam. Cuidar da mente é cuidar de si com profundidade.</p>
+          </article>
+          <article class="help-card reveal tilt-card" data-delay="140">
+            <span class="help-emoji" aria-hidden="true">🤲</span>
+            <h3>Adulto de confiança</h3>
+            <p>Qualquer pessoa que te faça sentir seguro: um tio, vizinho, treinador. O importante é falar.</p>
+          </article>
+        </div>
+
+        <aside class="bear-banner bear-banner-small reveal">
+          <img src="/image.png" alt="" class="bear-banner-img" aria-hidden="true" />
+          <p>Você importa.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== Curiosidades ===== -->
+    <section class="content-section section-alt" id="curiosidades">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-eyebrow">Você sabia?</span>
+          <h2 class="section-title">Curiosidades</h2>
+          <p class="section-desc">Pequenos fatos que ajudam a enxergar o respeito com outros olhos.</p>
+        </header>
+
+        <div class="carousel reveal" id="carousel" aria-roledescription="carrossel">
+          <button class="carousel-btn carousel-prev" id="carouselPrev" type="button" aria-label="Anterior">‹</button>
+          <div class="carousel-viewport">
+            <ul class="carousel-track" id="carouselTrack">
+              <li class="carousel-slide">
+                <span class="carousel-emoji" aria-hidden="true">🌼</span>
+                <h3>O respeito melhora o ambiente escolar.</h3>
+                <p>Salas onde se respeitam diferenças têm menos conflitos e mais colaboração entre todos.</p>
+              </li>
+              <li class="carousel-slide">
+                <span class="carousel-emoji" aria-hidden="true">🚫</span>
+                <h3>O bullying nunca é brincadeira.</h3>
+                <p>Quando alguém se machuca, não é diversão — é uma situação que precisa de cuidado urgente.</p>
+              </li>
+              <li class="carousel-slide">
+                <span class="carousel-emoji" aria-hidden="true">💬</span>
+                <h3>Falar alivia o peso.</h3>
+                <p>Guardar sentimentos aumenta o sofrimento. Compartilhar com alguém de confiança é coragem.</p>
+              </li>
+              <li class="carousel-slide">
+                <span class="carousel-emoji" aria-hidden="true">🤝</span>
+                <h3>Empatia se aprende.</h3>
+                <p>Praticar pequenos gestos de gentileza treina o coração para acolher quem está ao lado.</p>
+              </li>
+              <li class="carousel-slide">
+                <span class="carousel-emoji" aria-hidden="true">🌱</span>
+                <h3>Pequenos gestos transformam.</h3>
+                <p>Um cumprimento, um elogio sincero, um "posso sentar com você?" — tudo constrói um jardim.</p>
+              </li>
+            </ul>
+          </div>
+          <button class="carousel-btn carousel-next" id="carouselNext" type="button" aria-label="Próximo">›</button>
+        </div>
+        <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Selecionar slide"></div>
+      </div>
+    </section>
+
+    <!-- ===== Referências ===== -->
+    <section class="content-section" id="referencias">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-eyebrow">Conhecimento</span>
+          <h2 class="section-title">Referências</h2>
+          <p class="section-desc">Fontes confiáveis para aprofundar o que você viu aqui.</p>
+        </header>
+
+        <div class="refs-grid">
+          <article class="refs-card reveal" data-delay="0">
+            <h3>📚 Institucional</h3>
+            <ul>
+              <li><a href="https://www.gov.br/mec/pt-br/areas-de-atuacao/acoes-e-programas/bullying" target="_blank" rel="noopener noreferrer">Ministério da Educação — Combate ao Bullying</a></li>
+              <li><a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/campanhas-saude-do-governo-federal" target="_blank" rel="noopener noreferrer">Ministério da Saúde — Campanhas de Saúde Mental</a></li>
+              <li><a href="https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12716.htm" target="_blank" rel="noopener noreferrer">Lei nº 12.716/2013 (Lei do Bullying)</a></li>
+            </ul>
+          </article>
+          <article class="refs-card reveal" data-delay="100">
+            <h3>🧠 Saúde Mental</h3>
+            <ul>
+              <li><a href="https://www.who.int/health-topics/mental-health" target="_blank" rel="noopener noreferrer">OMS — Saúde Mental (WHO)</a></li>
+              <li><a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental" target="_blank" rel="noopener noreferrer">Ministério da Saúde — Saúde Mental</a></li>
+              <li><a href="https://www.cvv.org.br/" target="_blank" rel="noopener noreferrer">CVV — Centro de Valorização da Vida</a></li>
+            </ul>
+          </article>
+          <article class="refs-card reveal" data-delay="200">
+            <h3>🤝 Apoio e Escuta</h3>
+            <ul>
+              <li><a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cap-saude-mental" target="_blank" rel="noopener noreferrer">CAPS — Centros de Atenção Psicossocial</a></li>
+              <li><a href="https://www.childhood.org.br/" target="_blank" rel="noopener noreferrer">Instituto Childhood Brasil</a></li>
+              <li><a href="https://www.unicef.org/brazil/educacao" target="_blank" rel="noopener noreferrer">UNICEF Brasil — Educação</a></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Rodapé ===== -->
+  <footer class="site-footer">
+    <div class="footer-flowers" aria-hidden="true">
+      <img src="/image copy copy.png" alt="" class="footer-flower-img" />
+    </div>
+    <div class="container footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/image.png" alt="" class="footer-bear-img" aria-hidden="true" />
+          <p class="footer-title">Entre Flores e Abraços</p>
+          <p class="footer-tag">Portal de apoio ao estudante sobre bullying e saúde mental.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Links do rodapé">
+          <a href="#bullying">Bullying</a>
+          <a href="#saude-mental">Saúde Mental</a>
+          <a href="#escuta">Portal de Escuta</a>
+          <a href="#quiz">Quiz</a>
+          <a href="#ajuda">Buscar Ajuda</a>
+          <a href="#referencias">Referências</a>
+        </nav>
+        <blockquote class="footer-quote">
+          <p>"Pequenos gestos de respeito podem transformar grandes histórias."</p>
+        </blockquote>
+      </div>
+      <p class="footer-copy"><a href="https://instagram.com/m.wisnievski" target="_blank" rel="noopener noreferrer" class="footer-insta">@m.wisnievski</a></p>
+    </div>
+  </footer>
+
+  <!-- Botão voltar ao topo -->
+  <button class="to-top" id="toTop" type="button" aria-label="Voltar ao topo">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <path d="M10 16V4M4 10l6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+</body>
+</html>
